@@ -1,55 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-05T13:12:24 IST" name="Loan department" finished-at="2023-12-05T13:12:24 IST" duration-ms="176">
+  <suite started-at="2023-12-05T14:05:55 IST" name="Loan department" finished-at="2023-12-05T14:05:55 IST" duration-ms="123">
     <groups>
+      <group name="Smokes">
+        <method signature="LoginHome.loginAPIHomeLoan()[pri:0, instance:loanDepartment.LoginHome@6eda5c9]" name="loginAPIHomeLoan" class="loanDepartment.LoginHome"/>
+        <method signature="LoginHome.webLoginHomeLoan()[pri:0, instance:loanDepartment.LoginHome@6eda5c9]" name="webLoginHomeLoan" class="loanDepartment.LoginHome"/>
+        <method signature="PersonalLoanOne.testSecond()[pri:0, instance:loanDepartment.PersonalLoanOne@2c767a52]" name="testSecond" class="loanDepartment.PersonalLoanOne"/>
+      </group> <!-- Smokes -->
     </groups>
-    <test started-at="2023-12-05T13:12:24 IST" name="Personal Loan" finished-at="2023-12-05T13:12:24 IST" duration-ms="176">
-      <class name="loanDepartment.LoginCar">
-        <test-method signature="MobileLoginCarLoan()[pri:0, instance:loanDepartment.LoginCar@31c88ec8]" started-at="2023-12-05T13:12:24 IST" name="MobileLoginCarLoan" finished-at="2023-12-05T13:12:24 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginCarLoan -->
-        <test-method signature="loginAPICarLoan()[pri:0, instance:loanDepartment.LoginCar@31c88ec8]" started-at="2023-12-05T13:12:24 IST" name="loginAPICarLoan" finished-at="2023-12-05T13:12:24 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginAPICarLoan -->
-        <test-method signature="webLoginCarLoan()[pri:0, instance:loanDepartment.LoginCar@31c88ec8]" started-at="2023-12-05T13:12:24 IST" name="webLoginCarLoan" finished-at="2023-12-05T13:12:24 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webLoginCarLoan -->
-      </class> <!-- loanDepartment.LoginCar -->
+    <test started-at="2023-12-05T14:05:55 IST" name="regressions" finished-at="2023-12-05T14:05:55 IST" duration-ms="123">
       <class name="loanDepartment.PersonalLoanOne">
-        <test-method signature="testOne()[pri:0, instance:loanDepartment.PersonalLoanOne@188715b5]" started-at="2023-12-05T13:12:24 IST" name="testOne" finished-at="2023-12-05T13:12:24 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method signature="testSecond()[pri:0, instance:loanDepartment.PersonalLoanOne@188715b5]" started-at="2023-12-05T13:12:24 IST" name="testSecond" finished-at="2023-12-05T13:12:24 IST" duration-ms="6" status="PASS">
+        <test-method signature="testSecond()[pri:0, instance:loanDepartment.PersonalLoanOne@2c767a52]" started-at="2023-12-05T14:05:55 IST" name="testSecond" finished-at="2023-12-05T14:05:55 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSecond -->
       </class> <!-- loanDepartment.PersonalLoanOne -->
       <class name="loanDepartment.LoginHome">
-        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:loanDepartment.LoginHome@50eac852]" started-at="2023-12-05T13:12:24 IST" name="MobileLoginHomeLoan" finished-at="2023-12-05T13:12:24 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginHomeLoan -->
-        <test-method signature="loginAPIHomeLoan()[pri:0, instance:loanDepartment.LoginHome@50eac852]" started-at="2023-12-05T13:12:24 IST" name="loginAPIHomeLoan" finished-at="2023-12-05T13:12:24 IST" duration-ms="3" status="PASS">
+        <test-method signature="loginAPIHomeLoan()[pri:0, instance:loanDepartment.LoginHome@6eda5c9]" started-at="2023-12-05T14:05:55 IST" name="loginAPIHomeLoan" finished-at="2023-12-05T14:05:55 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAPIHomeLoan -->
-        <test-method signature="webLoginHomeLoan()[pri:0, instance:loanDepartment.LoginHome@50eac852]" started-at="2023-12-05T13:12:24 IST" name="webLoginHomeLoan" finished-at="2023-12-05T13:12:24 IST" duration-ms="3" status="PASS">
+        <test-method signature="webLoginHomeLoan()[pri:0, instance:loanDepartment.LoginHome@6eda5c9]" started-at="2023-12-05T14:05:55 IST" name="webLoginHomeLoan" finished-at="2023-12-05T14:05:55 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webLoginHomeLoan -->
       </class> <!-- loanDepartment.LoginHome -->
-      <class name="loanDepartment.PersonalLoanTwo">
-        <test-method signature="testOne()[pri:0, instance:loanDepartment.PersonalLoanTwo@1ea9f6af]" started-at="2023-12-05T13:12:24 IST" name="testOne" finished-at="2023-12-05T13:12:24 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOne -->
-      </class> <!-- loanDepartment.PersonalLoanTwo -->
-    </test> <!-- Personal Loan -->
+    </test> <!-- regressions -->
   </suite> <!-- Loan department -->
 </testng-results>
