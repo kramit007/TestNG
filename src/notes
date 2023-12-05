@@ -1,0 +1,9 @@
+1. TestNG is a testing framework for the Java programming language inspired by JUnit and NUnit.
+   TestNG provides full control over the test cases and the execution of the test cases. 
+   In TestNG, NG stands for "Next Generation".
+   TestNG act as a Java Compiler and execute test cases.
+   TestNG executes test cases in method.
+
+2. To install TestNG in Eclipse : Help > Eclipse Market Place > Search TestNG and Install
+
+3. XML hierarchy : Test Suit > Test Folder(Module) > Test Cases > Methods
