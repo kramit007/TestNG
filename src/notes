@@ -7,3 +7,5 @@
 2. To install TestNG in Eclipse : Help > Eclipse Market Place > Search TestNG and Install
 
 3. XML hierarchy : Test Suit > Test Folder(Module) > Test Cases > Methods
+
+Note: dataprovider is not covered
